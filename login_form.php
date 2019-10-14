@@ -40,7 +40,7 @@
     <label class="form-check-label" for="exampleCheck1">keep me login</label>
   </div>
   <button type="submit" class="btn btn-primary">Login</button>
-  <a class="align-items-end" href="register_form.php">create account</a>
+  <a class="float-right text-decoration-none" href="register_form.php">create account</a>
 </form>
 
 </div>
