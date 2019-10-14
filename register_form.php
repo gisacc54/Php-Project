@@ -2,7 +2,7 @@
 <html>
 <head>
 	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>form</title>
+	<title>Registration Form</title>
 	<link rel="stylesheet" type="text/css" href="asset/bootstrap/css/bootstrap.min.css">
 	<script type="text/javascript" src="asset/jquery-3.4.1.min.js"></script>
 </head>
@@ -38,7 +38,11 @@
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
   <button type="submit" class="btn btn-primary">Register</button>
+<<<<<<< HEAD
   <a class="col-md-4 offset-4" href="login_form.php">if you have an account? login here</a>
+=======
+  <a class="float-right text-decoration-none" href="login_form.php">Do you have account? login here</a>
+>>>>>>> b8e9877fc27646edfe07e0cb32f7d72f2428f2da
 </form>
 
 </div>
