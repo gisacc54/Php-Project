@@ -1,9 +1,7 @@
 <?php
 session_start();
 //our local DB
-$password="tupj4c1PIu7LM";
-$email="gisacc@gos.com";
-
+include("info.php");
 if (isset($_POST['email'])) {
 	if (crypt($_POST['password'],"tunuprogrammer")===$password && $_POST['email']===$email){
 		// echo "successful login";
