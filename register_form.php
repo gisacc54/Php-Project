@@ -12,7 +12,7 @@
 		
 <div class="col-md-6 offset-3 my-5">
 
-	<form method="post" action="register.php">
+	<form method="post" action="include/register.php">
 		<h2>REGISTER</h2>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>

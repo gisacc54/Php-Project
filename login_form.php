@@ -12,7 +12,7 @@
 		
 <div class="col-md-6 offset-3 my-5">
 
-	<form method="post" action="login.php">
+	<form method="post" action="include/login.php">
 		<h2>LOGIN</h2>
 		<?php 
 		if (isset($_GET['error'])) {
