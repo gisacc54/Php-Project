@@ -12,7 +12,7 @@
 		
 <div class="col-md-6 offset-3 my-5">
 
-	<form method="post" action="register.php">
+	<form method="post" action="include/register.php">
 		<h2>REGISTER</h2>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
@@ -37,6 +37,7 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
+  <button type="submit" class="btn btn-primary">Register</button>
 
   <a class="col-md-4 offset-4" href="login_form.php">if you have an account? login here</a>
 </form>
