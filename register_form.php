@@ -37,6 +37,7 @@
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Check me out</label>
   </div>
+  <button type="submit" class="btn btn-primary">Register</button>
 
   <a class="col-md-4 offset-4" href="login_form.php">if you have an account? login here</a>
 </form>
