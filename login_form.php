@@ -40,11 +40,8 @@
     <label class="form-check-label" for="exampleCheck1">keep me login</label>
   </div>
   <button type="submit" class="btn btn-primary">Login</button>
-<<<<<<< HEAD
+
   <a class="col-md-4 offset-4" href="register_form.php">create account</a>
-=======
-  <a class="float-right text-decoration-none" href="register_form.php">create account</a>
->>>>>>> b8e9877fc27646edfe07e0cb32f7d72f2428f2da
 </form>
 
 </div>
