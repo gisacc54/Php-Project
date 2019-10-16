@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(empty($_SESSION['email'])){
+header("location: login_form.php");
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,7 +55,7 @@ session_start();
               <li class=""><a href="#">Notification</a></li>
               <li class=""><a href="#">Setting</a></li>
               <li class="divider"></li>
-              <li><a href="login_form.php">Logout</a></li>
+              <li><a href="include/logout.php">Logout</a></li>
             </ul>
           </li>
         </ul>
