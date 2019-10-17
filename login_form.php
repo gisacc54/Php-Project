@@ -19,7 +19,7 @@ header("location: dashboard2.php");
 		
 <div class="col-md-6 offset-3 my-5">
 
-	<form method="post" action="include/login.php">
+	<form method="post" action="<?=htmlspecialchars('include/login.php') ?>">
 		<h2>LOGIN</h2>
 		<?php 
 		if (isset($_GET['error'])) {
@@ -48,7 +48,7 @@ header("location: dashboard2.php");
   </div>
   <button type="submit" class="btn btn-primary">Login</button>
 
-  <a class="col-md-4 offset-4" href="register_form.php">create account</a>
+  <a class="float-right" href="register_form.php">create account</a>
 
 </form>
 

@@ -46,7 +46,7 @@ header("location: dashboard2.php");
   </div>
   <button type="submit" class="btn btn-primary">Register</button>
 
-  <a class="col-md-4 offset-4" href="login_form.php">if you have an account? login here</a>
+  <a class="float-right" href="login_form.php">if you have an account? login here</a>
 </form>
 
 </div>
