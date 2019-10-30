@@ -1,4 +1,4 @@
-# Php-Proje
+# Php-Project
 ##### First create file in include 
 		<?php
 			session_start();
